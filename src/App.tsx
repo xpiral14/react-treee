@@ -29,45 +29,11 @@ export default function App() {
     });
   }, []);
 
-  const fakeTree = {
-    "0": {
-      id: "1",
-      name: "Fátima Araújo",
-      level: 0,
-      children: {
-        "0": {
-          id: "1-1",
-          name: "Samuel Reis",
-          level: 1,
-          children: {},
-        },
-        "1": {
-          id: "1-2",
-          name: "Sabrina Reis",
-          level: 1,
-          children: {},
-        },
-        "3": {
-          id: "1-3",
-          name: "Alexandre Lins",
-          level: 1,
-          children: {
-            "0": {
-              id: "1-3-1",
-              name: "Emilly sofia",
-              level: 2,
-              children: {},
-            },
-          },
-        },
-      },
-    },
-  };
   return (
     <div className="App">
       <GlobalStyle />
       <Tree
-        nodes={fakeTree}
+        nodes={treeNodes}
         selecteds={selectedNodeIds}
         onSelect={selectNodes}
         onUnselect={unSelectNodes}
