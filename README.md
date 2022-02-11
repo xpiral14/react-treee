@@ -19,3 +19,27 @@ Bibliotecas utlizadas:
 - testing-library/user-event
 
 ![Print do resultado](public/print.png)
+
+# Instalação do projeto
+1. clone o projeto com o git:
+    ```zsh
+    git clone https://github.com/xpiral14/react-treee
+    ```
+
+2. Acesse a pasta do projeto e instale as dependências utilizando `yarn` ou `npm`
+
+    ```zsh
+    cd react-treee & yarn
+    ```
+    ou
+    ````zsh
+    cd react-treee & npm install
+
+3. Inicie o projeto
+    ```zsh
+    yarn start
+    ```
+    ou 
+    ```zsh
+    npm run start
+    ```
