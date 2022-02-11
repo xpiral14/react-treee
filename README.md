@@ -43,3 +43,14 @@ Bibliotecas utlizadas:
     ```zsh
     npm run start
     ```
+
+# Testar projeto
+
+Na pasta do projeto rode o seguinte comando:
+ ```zsh
+    yarn test
+    ```
+    ou 
+    ```zsh
+    npm run test
+    ```
