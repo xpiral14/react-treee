@@ -47,7 +47,7 @@ Bibliotecas utlizadas:
 # Testar projeto
 
 Na pasta do projeto rode o seguinte comando:
- ```zsh
+    ```zsh
     yarn test
     ```
     ou 
